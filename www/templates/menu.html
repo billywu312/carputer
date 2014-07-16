@@ -9,15 +9,24 @@
 
   <ion-side-menu side="left">
     <header class="bar bar-header bar-stable">
-      <h1 class="title">Left</h1>
+      <h1 class="title">Carputer</h1>
     </header>
     <ion-content class="has-header">
       <ion-list>
         <ion-item nav-clear menu-close ng-click="login()">
-          Login
+          <button class="button button-icon button-full icon ion-ios7-gear-outline">
+            Login
+          </button>
         </ion-item>
-        <ion-item nav-clear menu-close href="#/app/search">
-          Search
+        <ion-item nav-clear menu-close href="#/app/settings">
+          <button class="button button-icon button-full icon ion-ios7-gear-outline">
+            Settings
+          </button>
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/gauges">
+          <button class="button button-icon button-full icon ion-ios7-speedometer-outline">
+            Gauges
+          </button>
         </ion-item>
         <ion-item nav-clear menu-close href="#/app/browse">
           Browse
